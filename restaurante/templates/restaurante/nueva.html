@@ -1,0 +1,17 @@
+<h1>Nueva Reserva</h1>
+<form method="post">
+  {% csrf_token %}
+  <label>Nombre:</label>
+  <input type="text" name="nombre_cliente" required><br>
+
+  <label>Fecha:</label>
+  <input type="date" name="fecha" required><br>
+
+  <label>Hora:</label>
+  <input type="time" name="hora" required><br>
+
+  <label>Personas:</label>
+  <input type="number" name="personas" min="1" required><br>
+
+  <button type="submit">Guardar</button>
+</form>

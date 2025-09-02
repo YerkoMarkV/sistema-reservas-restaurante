@@ -1,0 +1,28 @@
+# Django
+*.sqlite3
+*.log
+media/
+staticfiles/
+
+# Virtual Environment
+venv/
+env/
+__pycache__/
+*.pyc
+
+# IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# Git
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints
